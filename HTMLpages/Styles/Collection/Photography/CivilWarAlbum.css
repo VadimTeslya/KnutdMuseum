@@ -1,0 +1,71 @@
+﻿#albumName {
+    color: #dc001a;
+    font-style: italic;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+
+.contentItem {
+    position: relative;
+    display: block;
+    float: left;
+    width: 165px;
+    margin-top: 10px;
+    padding-top: 0;
+}
+
+.contentItem:hover .showLarge {
+    opacity: 0.6;
+}
+
+.contentItem:hover .showLarge p {
+    opacity: 1;
+}
+
+.leftPhoto {
+    margin-right: 11px;
+    padding-right: 30px;
+}
+
+.centerPhoto {
+    margin-right: 31px;
+    padding-left: 30px;
+}
+
+.rightPhoto {
+    margin-right: 0;
+    padding-left: 30px;
+}
+
+.showLarge {
+    position: absolute;
+    background-color: #000000;
+    width: 165px;
+    height: 200px;
+    z-index: 10;
+    top: 0;
+    opacity: 0;
+}
+
+.showLarge p {
+    margin: 70px 20px;
+    color: #fff;
+    border: 2px solid #ffffff;
+    padding: 15px 5px;
+    text-align: center;
+}
+
+.paging {
+    margin: 20px 0 0 0;
+}
+
+.paging div {
+    width: 4%;
+    margin: auto;
+}
+
+.paging a {
+    color: #dc001a;
+    font-style: italic;
+}
+

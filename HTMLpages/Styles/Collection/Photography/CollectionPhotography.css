@@ -1,0 +1,10 @@
+﻿#viewCollection a {
+    color: #dc001a;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+#details p {
+    margin-top: 8px;
+    font-size: 10pt;
+}

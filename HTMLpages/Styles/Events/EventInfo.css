@@ -1,0 +1,54 @@
+﻿.namePage {
+    color: #dc001a;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.contentItem {
+    margin-top: 10px;
+}
+
+.eventImg {
+    float: left;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.eventTxt {
+    overflow: hidden;
+    padding: 40px 0 0 30px;
+}
+
+.eventTxt div {
+    float: left;
+    clear: right;
+}
+
+.eventTxt div p{
+    margin: 8px 0;
+    line-height: 1;
+}
+
+.grayTxt {
+    color: gray;
+}
+
+.redTxt {
+    margin-left: 10px;
+    color: #dc001a;
+}
+
+.eventDescription {
+    padding-top: 5px;
+    clear: both;
+}
+
+.eventDescription p {
+    text-align: justify;
+}
+
+.eventDescription a {
+    color: #dc001a;
+    text-decoration: none;
+    font-style: italic;
+}

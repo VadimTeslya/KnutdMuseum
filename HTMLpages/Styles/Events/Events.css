@@ -1,0 +1,73 @@
+﻿.namePage {
+    color: #dc001a;
+    font-style: italic;
+    margin-top: 0;
+}
+
+a .contentItem {
+    color: #000000;
+}
+
+.contentItem {
+    border-bottom: 1px dashed gray;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.eventImg {
+    float: left;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.eventTxt {
+    overflow: hidden;
+    padding: 0 0 0 30px;
+}
+
+.eventTxt div {
+    float: left;
+    clear: right;
+}
+
+.eventTxt div p{
+    margin: 8px 0;
+    line-height: 1;
+}
+
+.eventTxt h3{
+    margin: 0;
+}
+
+.eventTxt h3 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.grayTxt {
+    color: gray;
+}
+
+.redTxt {
+    margin-left: 10px;
+    color: #dc001a;
+}
+
+.eventDescription p {
+    text-align: justify;
+}
+
+.paging {
+    margin: 20px 0 0 0;
+}
+
+.paging div {
+    width: 4%;
+    margin: auto;
+}
+
+.paging a {
+    color: #dc001a;
+    font-style: italic;
+}
+
