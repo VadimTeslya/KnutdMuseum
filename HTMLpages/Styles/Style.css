@@ -86,10 +86,7 @@ ul {
     padding-left: 10px;
 }
 
-#menuButton {
-}
-
-    #menuButton ul ul {
+#menuButton ul ul {
         display: none;
     }
 
@@ -214,20 +211,24 @@ ul {
     }
 
         .slider .nav span {
+            -ms-opacity: 0.9;
             opacity: 0.9;
             background: #fff;
             margin: 0 8px 0 0;
             width: 8px;
             height: 8px;
+            -ms-border-radius: 8px;
             border-radius: 8px;
             cursor: pointer;
             overflow: hidden;
             display: block;
             float: left;
+            -webkit-box-shadow: 0 1px 2px #000;
+            -ms-box-shadow: 0 1px 2px #000;
             box-shadow: 0 1px 2px #000;
         }
 
-            .slider .nav span.on {
+.slider .nav span.on {
                 background: #dc001a;
             }
 
@@ -297,3 +298,323 @@ p.contactInfo {
         color: #000000;
         text-decoration: underline;
     }
+
+/*---------------------------------------
+                About Us
+-----------------------------------------*/
+
+.content {
+    padding-top: 20px;
+    overflow: hidden;
+}
+
+.contentImage {
+    float: left;
+    overflow: hidden;
+    padding-top: 4px;
+}
+
+.contentTxt {
+    width: 404px;
+    overflow: hidden;
+    padding: 0 0 0 10px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+h3 a {
+    color: #000000;
+    text-decoration: underline;
+}
+
+.historyText {
+    text-align: justify;
+}
+
+/*---------------------------------------
+                AboutUs/OurProject
+-----------------------------------------*/
+
+.contentProjImage {
+    float: left;
+    margin-right: 20px;
+}
+
+.contentProjTxt p {
+    text-align: justify;
+}
+
+.contentProjTxt a {
+    color: #dc001a;
+    font-style: italic;
+    text-decoration: none;
+}
+
+/*---------------------------------------
+                Photography
+-----------------------------------------*/
+
+    #albumName {
+    color: #dc001a;
+    font-style: italic;
+    font-size: 12pt;
+    margin-top: 5px;
+}
+
+.contentItem {
+    position: relative;
+    display: block;
+    float: left;
+    width: 165px;
+    margin-top: 10px;
+    padding-top: 0;
+}
+
+.contentItem:hover .showLarge {
+    -ms-opacity: 0.6;
+    opacity: 0.6;
+}
+
+.contentItem:hover .showLarge p {
+    -ms-opacity: 1;
+    opacity: 1;
+}
+
+.leftPhoto {
+    margin-right: 11px;
+    padding-right: 30px;
+}
+
+.centerPhoto {
+    margin-right: 31px;
+    padding-left: 30px;
+}
+
+.rightPhoto {
+    margin-right: 0;
+    padding-left: 30px;
+}
+
+.showLarge {
+    position: absolute;
+    background-color: #000000;
+    width: 165px;
+    height: 200px;
+    z-index: 10;
+    top: 0;
+    -ms-opacity: 0;
+    opacity: 0;
+}
+
+.showLarge > p {
+    margin: 70px 20px;
+    color: #fff;
+    border: 2px solid #ffffff;
+    padding: 15px 5px;
+    text-align: center;
+}
+
+.paging {
+    margin: 20px 0 0 0;
+}
+
+.paging div {
+    width: 4%;
+    margin: auto;
+}
+
+.paging a {
+    color: #dc001a;
+    font-style: italic;
+}
+
+/*---------------------------------------
+       Albums
+-----------------------------------------*/
+
+.contentItem > p {
+    color: #dc001a;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 5px;
+    width: 165px;
+    height: 40px;
+}
+
+/*---------------------------------------
+       Collection first page (periodicals, 
+       technique, photography)
+-----------------------------------------*/
+
+#viewCollection a {
+    color: #dc001a;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/*---------------------------------------
+       Collection/Photography
+-----------------------------------------*/
+
+#details > p {
+    margin-top: 8px;
+    font-size: 10pt;
+}
+
+/*---------------------------------------
+       Collection/Periodicals
+-----------------------------------------*/
+
+.news > div > p {
+    text-align: justify;
+}
+
+/*---------------------------------------
+                Events
+-----------------------------------------*/
+
+.namePage {
+    color: #dc001a;
+    font-style: italic;
+    font-size: 12pt;
+    margin: 10px 0 0 0;
+}
+
+a .eventItem {
+    color: #000000;
+}
+
+.eventItem {
+    border-bottom: 1px dashed gray;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.eventImg {
+    float: left;
+    overflow: hidden;
+    padding-top: 5px;
+}
+
+.eventTxt {
+    overflow: hidden;
+    padding: 0 0 0 30px;
+}
+
+.eventTxt div {
+    float: left;
+    clear: right;
+}
+
+.eventTxt div p{
+    margin: 8px 0;
+    line-height: 1;
+}
+
+.eventTxt h3{
+    margin: 0;
+}
+
+.eventTxt h3 a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.grayTxt {
+    color: gray;
+}
+
+.redTxt {
+    margin-left: 10px;
+    color: #dc001a;
+}
+
+.eventDescription p {
+    text-align: justify;
+}
+
+/*---------------------------------------
+                EventsInfo
+-----------------------------------------*/
+
+.eventInfoTxt {
+    overflow: hidden;
+    padding: 40px 0 0 30px;
+}
+
+.eventInfoTxt div {
+    float: left;
+    clear: right;
+}
+
+.eventInfoItem {
+    margin-top: 10px;
+}
+
+.eventDescription {
+    padding-top: 5px;
+    clear: both;
+}
+
+.eventDescription a {
+    color: #dc001a;
+    text-decoration: none;
+    font-style: italic;
+}
+
+/*---------------------------------------
+                EXHIBITIONS
+-----------------------------------------*/
+
+.redExhTxt {
+    color: #dc001a;
+    font-style: italic;
+    margin: 0;
+}
+
+.exbitionsTxt h3{
+    margin: 5px 0 0 0;
+}
+
+.exbitionsTxt a{
+    color: #dc001a;
+    text-decoration: underline;
+}
+
+.exhibition {
+    margin-top: 10px;
+}
+
+/*---------------------------------------
+                Education Programm
+-----------------------------------------*/
+
+p.redEduTxt {
+    color: #dc001a;
+    font-style: italic;
+}
+
+/*---------------------------------------
+                Contacts
+-----------------------------------------*/
+
+#contacts {
+    margin: 0;
+    padding: 0;
+}
+
+#pageName {
+    color: #dc001a;
+    font-style: italic;
+    font-size: 12pt;
+}
+
+#pageName p {
+    margin: 0;
+}
+
+#university p{
+    margin: 1px;
+}
