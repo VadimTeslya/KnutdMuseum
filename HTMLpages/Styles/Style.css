@@ -352,6 +352,10 @@ h3 a {
     text-decoration: none;
 }
 
+.historyTitle {
+    font-weight: bold;
+    font-size: 12pt;
+}
 /*---------------------------------------
                 Photography
 -----------------------------------------*/
@@ -571,7 +575,7 @@ a .eventItem {
 .redExhTxt {
     color: #dc001a;
     font-style: italic;
-    margin: 0;
+    margin: 10px 0 0 0;
 }
 
 .exbitionsTxt h3{
@@ -585,6 +589,10 @@ a .eventItem {
 
 .exhibition {
     margin-top: 10px;
+}
+
+.exhibitionCollection > a {
+    color: #dc001a;
 }
 
 /*---------------------------------------
