@@ -55,6 +55,7 @@ h3 {
     }
 
 #searchLine {
+    visibility: hidden;
     position: absolute;
     bottom: 10px;
     right: 0;
@@ -124,6 +125,25 @@ ul {
         }
 
         #menuButton > ul > li > ul > li:hover > span {
+            background-image: url('../img/arrow.png');
+            background-repeat: no-repeat;
+        }
+
+        #menuButton > ul > li > ul > li > ul > li > a {
+            position: relative;
+            left: 10px;
+            margin: 0;
+            color: #595959;
+            line-height: 1.5;
+        }
+
+        #menuButton > ul > li > ul > li > ul > li > span {
+            float: left;
+            width: 14px;
+            height: 19px;
+        }
+
+        #menuButton > ul > li > ul > li> ul > li:hover > span {
             background-image: url('../img/arrow.png');
             background-repeat: no-repeat;
         }
@@ -239,6 +259,16 @@ ul {
     overflow: hidden;
 }
 
+.albumImg > img{
+    width: 165px;
+    height: 200px;
+}
+
+.albumPhoto> a > img{
+    width: 165px;
+    height: 200px;
+}
+
 /*--------------------------------------------
     Footer
 ----------------------------------------------*/
@@ -273,14 +303,14 @@ p.contactInfo {
 }
 
 #rightSide {
-    padding-left: 30px;
-    padding-top: 41px;
+    padding-left: 35px;
+    padding-top: 15px;
     overflow: hidden;
 }
 
 .footerInfo {
     float: left;
-    margin-right: 20px;
+    margin-right: 35px;
 }
 .footerInfo p {
     margin: 0;
