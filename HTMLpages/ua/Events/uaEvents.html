@@ -4,24 +4,19 @@
     <title>КНУТД музей фотографії</title>
     <meta charset="utf-8" />
     <link href="../../Styles/Style.css" rel="stylesheet" />
+    <link href="../../Styles/Paginate.css" rel="stylesheet" />
 </head>
 <body>
     <div id="header">
         <div id="logo">
             <a href="../../uaMainPage.html">
-                <img src="../../img/logoknutd.png" alt="KNUTDmuseum" style="padding-bottom: 0;" />
+                <img src="../../img/layout/logo/logoUa.png" />
             </a>
         </div>
         <div id="languages">
             <a class="lngBtn" href="../../ua/Events/uaEvents.html">Укр</a>
             <a class="lngBtn" href="../../ru/Events/ruEvents.html">Рус</a>
             <a class="lngBtn" href="../../eng/Events/Events.html">Eng</a>
-        </div>
-        <div id="search">
-            <form id="searchLine">
-                <input type="text" />
-                <input type="submit" value="Знайти" />
-            </form>
         </div>
     </div>
     <div id="container">
@@ -36,11 +31,25 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="#">КОЛЕКЦії</a>
+                        <a href="#">КОЛЕКЦІЇ</a>
                         <ul>
-                            <li><span></span><a href="../../ua/Collection/Photography/uaCollectionPhotography.html">фотографія</a></li>
-                            <li><span></span><a href="../../ua/Collection/TechniqueAndTechnology/uaTechniqueAndTechnology.html">техніка та технології</a></li>
-                            <li><span></span><a href="../../ua/Collection/Periodicals/uaPeriodicals.html">періодичні видання</a></li>
+                            <li>
+                                <span></span><a href="#">друкована продукція</a>
+                                <ul>
+                                    <li><span></span><a href="../../ua/Collection/PrintedProducts/Magazine/MagazineAlbums.html">журнали</a></li>
+                                    <li><span></span><a href="../../ua/Collection/PrintedProducts/Books/Books.html">книги</a></li>
+                                    <li><span></span><a href="../../ua/Collection/PrintedProducts/PhotoCards/PhotoCardsAlbums.html">фото листівки</a></li>
+                                </ul>
+                            </li>
+                            <li><span></span><a href="../../ua/Collection/Souvenirs/Souvenirs.html">сувенірна продукція</a></li>
+                            <li>
+                                <span></span><a href="#">фотографія</a>
+                                <ul>
+                                    <li><span></span><a href="../../ua/Collection/Photography/PhotoArchive/PhotoArchive.html">архіф фото</a></li>
+                                    <li><span></span><a href="../../ua/Collection/Photography/StudentsPhoto/StudentsPhotos.html">фотографії студентів</a></li>
+                                </ul>
+                            </li>
+                            <li><span></span><a href="../../ua/Collection/PhotoTechnic/PhotoTechnic.html">фототехніка</a></li>
                         </ul>
                     </li>
                     <li><a href="../../ua/Events/uaEvents.html">ЗАХОДИ</a></li>
@@ -54,7 +63,7 @@
                         </ul>
                     </li>
                     <li>
-                        <a href="">ПРОГРАМА НАВЧАННЯ</a>
+                        <a href="#">ПРОГРАМА НАВЧАННЯ</a>
                         <ul>
                             <li><span></span><a href="../../ua/EducationProgram/uaEducationGuidedTours.html">екскурсії</a></li>
                             <li><span></span><a href="../../ua/EducationProgram/uaEducationSchool.html">школи та університети</a></li>
@@ -100,91 +109,180 @@
             </div>
             <div class="news">
                 <p class="namePage">КАЛЕНДАР ПОДІЙ</p>
-                <a href="../../ua/Events/uaEventsInfo.html">
-                    <div class="eventItem">
-                        <div class="eventImg">
-                            <img src="../../img/FromRussiaWithLove.png" />
-                        </div>
-                        <div class="eventTxt">
-                            <h3>
-                                З Росії з любов'ю
-                            </h3>
-                            <div class="grayTxt">
-                                <p>ДАТА:</p>
-                                <p>ЧАС:</p>
-                                <p>МІСЦЕ:</p>
+                <div id="easyPaginate">
+                    <div class="row">
+                        <a href="../../ua/Events/uaEventsInfo.html">
+                            <div class="eventItem">
+                                <div class="eventImg">
+                                    <img src="../../img/FromRussiaWithLove.png" />
+                                </div>
+                                <div class="eventTxt">
+                                    <h3>
+                                        З Росії з любов'ю
+                                    </h3>
+                                    <div class="grayTxt">
+                                        <p>ДАТА:</p>
+                                        <p>ЧАС:</p>
+                                        <p>МІСЦЕ:</p>
+                                    </div>
+                                    <div class="redTxt">
+                                        <p>Четверга, 7 квітня 2016</p>
+                                        <p>8 вечора</p>
+                                        <p>Драйден театр</p>
+                                    </div>
+                                    <div class="eventDescription">
+                                        <p>
+                                            Бонд і інші Шпигуни. Хоча серіал про Джеймса Бонда незабаром перетворився в щось більше, ніж в ряд справжніх шпигунських трилерів, фільм «З Росії з любов'ю» являє собою найчистіший приклад шпигунської пригодницької історії. Завдання агенту 007 поставлені в Стамбулі в розпал холодної війни ...
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="redTxt">
-                                <p>Четверга, 7 квітня 2016</p>
-                                <p>8 вечора</p>
-                                <p>Драйден театр</p>
-                            </div>
-                            <div class="eventDescription">
-                                <p>
-                                    Бонд і інші Шпигуни. Хоча серіал про Джеймса Бонда незабаром перетворився в щось більше, ніж в ряд справжніх шпигунських трилерів, фільм «З Росії з любов'ю» являє собою найчистіший приклад шпигунської пригодницької історії. Завдання агенту 007 поставлені в Стамбулі в розпал холодної війни ...
-                                </p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                </a>
-                <a href="../../ua/Events/uaEventsInfo.html">
-                    <div class="eventItem">
-                        <div class="eventImg">
-                            <img src="../../img/FromRussiaWithLove.png" />
-                        </div>
-                        <div class="eventTxt">
-                            <h3>
-                                З Росії з любов'ю
-                            </h3>
-                            <div class="grayTxt">
-                                <p>ДАТА:</p>
-                                <p>ЧАС:</p>
-                                <p>МІСЦЕ:</p>
+                    <div class="row">
+                        <a href="../../ua/Events/uaEventsInfo.html">
+                            <div class="eventItem">
+                                <div class="eventImg">
+                                    <img src="../../img/FromRussiaWithLove.png" />
+                                </div>
+                                <div class="eventTxt">
+                                    <h3>
+                                        З Росії з любов'ю
+                                    </h3>
+                                    <div class="grayTxt">
+                                        <p>ДАТА:</p>
+                                        <p>ЧАС:</p>
+                                        <p>МІСЦЕ:</p>
+                                    </div>
+                                    <div class="redTxt">
+                                        <p>Четверга, 7 квітня 2016</p>
+                                        <p>8 вечора</p>
+                                        <p>Драйден театр</p>
+                                    </div>
+                                    <div class="eventDescription">
+                                        <p>
+                                            Бонд і інші Шпигуни. Хоча серіал про Джеймса Бонда незабаром перетворився в щось більше, ніж в ряд справжніх шпигунських трилерів, фільм «З Росії з любов'ю» являє собою найчистіший приклад шпигунської пригодницької історії. Завдання агенту 007 поставлені в Стамбулі в розпал холодної війни ...
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="redTxt">
-                                <p>Четверга, 7 квітня 2016</p>
-                                <p>8 вечора</p>
-                                <p>Драйден театр</p>
-                            </div>
-                            <div class="eventDescription">
-                                <p>
-                                    Бонд і інші Шпигуни. Хоча серіал про Джеймса Бонда незабаром перетворився в щось більше, ніж в ряд справжніх шпигунських трилерів, фільм «З Росії з любов'ю» являє собою найчистіший приклад шпигунської пригодницької історії. Завдання агенту 007 поставлені в Стамбулі в розпал холодної війни ...
-                                </p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                </a>
-                <a href="../../ua/Events/uaEventsInfo.html">
-                    <div class="eventItem">
-                        <div class="eventImg">
-                            <img src="../../img/FromRussiaWithLove.png" />
-                        </div>
-                        <div class="eventTxt">
-                            <h3>
-                                З Росії з любов'ю
-                            </h3>
-                            <div class="grayTxt">
-                                <p>ДАТА:</p>
-                                <p>ЧАС:</p>
-                                <p>МІСЦЕ:</p>
+                    <div class="row">
+                        <a href="../../ua/Events/uaEventsInfo.html">
+                            <div class="eventItem">
+                                <div class="eventImg">
+                                    <img src="../../img/FromRussiaWithLove.png" />
+                                </div>
+                                <div class="eventTxt">
+                                    <h3>
+                                        З Росії з любов'ю
+                                    </h3>
+                                    <div class="grayTxt">
+                                        <p>ДАТА:</p>
+                                        <p>ЧАС:</p>
+                                        <p>МІСЦЕ:</p>
+                                    </div>
+                                    <div class="redTxt">
+                                        <p>Четверга, 7 квітня 2016</p>
+                                        <p>8 вечора</p>
+                                        <p>Драйден театр</p>
+                                    </div>
+                                    <div class="eventDescription">
+                                        <p>
+                                            Бонд і інші Шпигуни. Хоча серіал про Джеймса Бонда незабаром перетворився в щось більше, ніж в ряд справжніх шпигунських трилерів, фільм «З Росії з любов'ю» являє собою найчистіший приклад шпигунської пригодницької історії. Завдання агенту 007 поставлені в Стамбулі в розпал холодної війни ...
+                                        </p>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="redTxt">
-                                <p>Четверга, 7 квітня 2016</p>
-                                <p>8 вечора</p>
-                                <p>Драйден театр</p>
-                            </div>
-                            <div class="eventDescription">
-                                <p>
-                                    Бонд і інші Шпигуни. Хоча серіал про Джеймса Бонда незабаром перетворився в щось більше, ніж в ряд справжніх шпигунських трилерів, фільм «З Росії з любов'ю» являє собою найчистіший приклад шпигунської пригодницької історії. Завдання агенту 007 поставлені в Стамбулі в розпал холодної війни ...
-                                </p>
-                            </div>
-                        </div>
+                        </a>
                     </div>
-                </a>
-                <div class="paging">
-                    <div>
-                        <a href="../../ua/Events/uaEvents.html">1</a>
-                        <a href="../../ua/Events/uaEvents2.html">2</a>
+                    <div class="row">
+                        <a href="../../ua/Events/uaEventsInfo.html">
+                            <div class="eventItem">
+                                <div class="eventImg">
+                                    <img src="../../img/FromRussiaWithLove.png" />
+                                </div>
+                                <div class="eventTxt">
+                                    <h3>
+                                        З Росії з любов'ю
+                                    </h3>
+                                    <div class="grayTxt">
+                                        <p>ДАТА:</p>
+                                        <p>ЧАС:</p>
+                                        <p>МІСЦЕ:</p>
+                                    </div>
+                                    <div class="redTxt">
+                                        <p>Четверга, 7 квітня 2016</p>
+                                        <p>8 вечора</p>
+                                        <p>Драйден театр</p>
+                                    </div>
+                                    <div class="eventDescription">
+                                        <p>
+                                            Бонд і інші Шпигуни. Хоча серіал про Джеймса Бонда незабаром перетворився в щось більше, ніж в ряд справжніх шпигунських трилерів, фільм «З Росії з любов'ю» являє собою найчистіший приклад шпигунської пригодницької історії. Завдання агенту 007 поставлені в Стамбулі в розпал холодної війни ...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="../../ua/Events/uaEventsInfo.html">
+                            <div class="eventItem">
+                                <div class="eventImg">
+                                    <img src="../../img/FromRussiaWithLove.png" />
+                                </div>
+                                <div class="eventTxt">
+                                    <h3>
+                                        З Росії з любов'ю
+                                    </h3>
+                                    <div class="grayTxt">
+                                        <p>ДАТА:</p>
+                                        <p>ЧАС:</p>
+                                        <p>МІСЦЕ:</p>
+                                    </div>
+                                    <div class="redTxt">
+                                        <p>Четверга, 7 квітня 2016</p>
+                                        <p>8 вечора</p>
+                                        <p>Драйден театр</p>
+                                    </div>
+                                    <div class="eventDescription">
+                                        <p>
+                                            Бонд і інші Шпигуни. Хоча серіал про Джеймса Бонда незабаром перетворився в щось більше, ніж в ряд справжніх шпигунських трилерів, фільм «З Росії з любов'ю» являє собою найчистіший приклад шпигунської пригодницької історії. Завдання агенту 007 поставлені в Стамбулі в розпал холодної війни ...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="row">
+                        <a href="../../ua/Events/uaEventsInfo.html">
+                            <div class="eventItem">
+                                <div class="eventImg">
+                                    <img src="../../img/FromRussiaWithLove.png" />
+                                </div>
+                                <div class="eventTxt">
+                                    <h3>
+                                        З Росії з любов'ю
+                                    </h3>
+                                    <div class="grayTxt">
+                                        <p>ДАТА:</p>
+                                        <p>ЧАС:</p>
+                                        <p>МІСЦЕ:</p>
+                                    </div>
+                                    <div class="redTxt">
+                                        <p>Четверга, 7 квітня 2016</p>
+                                        <p>8 вечора</p>
+                                        <p>Драйден театр</p>
+                                    </div>
+                                    <div class="eventDescription">
+                                        <p>
+                                            Бонд і інші Шпигуни. Хоча серіал про Джеймса Бонда незабаром перетворився в щось більше, ніж в ряд справжніх шпигунських трилерів, фільм «З Росії з любов'ю» являє собою найчистіший приклад шпигунської пригодницької історії. Завдання агенту 007 поставлені в Стамбулі в розпал холодної війни ...
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -193,7 +291,7 @@
     <div id="footer">
         <div id="leftSide">
             <div id="footLogo">
-                <img src="../../img/logoknutd.png" />
+                <img src="../../img/layout/logo/logoUa.png" />
             </div>
             <div class="contactInfo">
                 <p class="contactInfo">КНУТД, Київ</p>
@@ -213,9 +311,13 @@
             </div>
             <div class="footerInfo">
                 <p><a>КОЛЕКЦІЇ</a></p>
-                <a href="../../ua/Collection/Photography/uaCollectionPhotography.html">фотографія</a>
-                <a href="../../ua/Collection/TechniqueAndTechnology/uaTechniqueAndTechnology.html">обладнання та<br /> технології</a>
-                <a href="../../ua/Collection/Periodicals/uaPeriodicals.html">періодичні<br /> видання</a>
+                <a href="../../ua/Collection/PrintedProducts/Magazine/MagazineAlbums.html">журнали</a>
+                <a href="../../ua/Collection/PrintedProducts/Books/Books.html">книги</a>
+                <a href="../../ua/Collection/PrintedProducts/PhotoCards/PhotoCardsAlbums.html">фото листівки</a>
+                <a href="../../ua/Collection/Souvenirs/Souvenirs.html">сувенірна <br>продукція</a>
+                <a href="../../ua/Collection/Photography/PhotoArchive/PhotoArchive.html">архіф фото</a>
+                <a href="../../ua/Collection/Photography/StudentsPhoto/StudentsPhotos.html">фотографії <br>студентів</a>
+                <a href="../../ua/Collection/PhotoTechnic/PhotoTechnic.html">фототехніка</a>
             </div>
             <div class="footerInfo">
                 <p><a href="../../ua/Events/uaEvents.html">ЗАХОДИ</a></p>
@@ -240,5 +342,13 @@
     <script src="../../scripts/jquery-2.2.3.min.js"></script>
     <script src="../../scripts/AcordionMenu.js"></script>
     <script src="../../scripts/SliderScript.js"></script>
+    <script src="../../scripts/jquery.easyPaginate.js"></script>
+    <script>
+        $('#easyPaginate').easyPaginate({
+            paginateElement: '.row',
+            elementsPerPage: 3,
+            effect: 'default'
+        });
+    </script>
 </body>
 </html>
