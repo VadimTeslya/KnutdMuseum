@@ -1,22 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>КНУТД музей фотографії</title>
     <meta charset="utf-8" />
     <link href="../../Styles/Style.css" rel="stylesheet"/>
 </head>
-<body>
+<body> 
+ <canvas id="main-canvas"style="z-index:-1;position:fixed;top:0;left:0;"></canvas>
     <div id="header">
         <div id="logo">
-            <a href="../../uaMainPage.html">
+            <a href="../../index.html">
                 <img src="../../img/layout/logo/logoUa.png" />
             </a>
         </div>
-        <div id="languages">
-            <a class="lngBtn" href="../../ua/EducationProgram/uaEducationGuidedTours.html">Укр</a>
-            <a class="lngBtn" href="../../ru/EducationProgram/ruEducationGuidedTours.html">Рус</a>
-            <a class="lngBtn" href="../../eng/EducationProgram/EducationGuidedTours.html">Eng</a>
-        </div>
+        
     </div>
     <div id="container">
         <div id="menu">
@@ -26,7 +23,7 @@
                         <a href="#">ПРО НАС</a>
                         <ul>
                             <li><span></span><a href="../../ua/AboutUs/uaHistory.html">історія</a></li>
-                            <li><span></span><a href="../../ua/AboutUs/uaOurProjects.html">наші проекти</a></li>
+                            
                         </ul>
                     </li>
                     <li>
@@ -79,8 +76,8 @@
                 </div>
                 <div class="contactInfo">
                     <p class="contactInfo">КНУТД, Київ</p>
-                    <p class="contactInfo">тел.: +3806778787</p>
-                    <p class="contactInfo"><a href="mailto:knutd@mail.com">knutd@mail.com</a></p>
+                    <p class="contactInfo">тел.: +380 67 509 43 93</p>
+                    <p class="contactInfo"><a href="mailto:mfoto@knutd.com">mfoto@knutd.com</a></p>
                 </div>
                 <div id="map">
                     <a href="">Карта</a>
@@ -107,14 +104,14 @@
                 </ul>
             </div>
             <div class="news">
-                <p class="namePage">ЕКСКУРСІЇ</p>
-                <h4 style="margin-top: 0;">ЕКСКУРСІЇ</h4>
+                
+               <p> <h4 style="margin-top: 0;">ЕКСКУРСІЇ</h4></p>
                 <p>
-                    Загальні виставкові тури проводяться кваліфікованими гідами центру мистецтва, які пропонують повну інформацію про всі роботах, представлених в музеї.
+                    Загальні виставкові тури проводяться кваліфікованими гідами КНУТД, які пропонують повну інформацію про всі роботах, представлених в музеї.
                 </p>
                 <p class="redEduTxt">
-                    Вівторок - п'ятниця о 19:00<br />
-                    Субота - неділя о 14:00, 17:00 та 19:00
+                    Вівторок - п'ятниця  19:00<br />
+                    Субота - неділя  14:00, 17:00 та 19:00
                 </p>
                 <h4>ТЕМАТИЧНІ ТУРИ</h4>
                 <p>
@@ -125,14 +122,14 @@
                 </p>
                 <h4>ТУРИ ДЛЯ ШКІЛ І УНІВЕРСИТЕТІВ</h4>
                 <p>
-                    Для шкіл та університетів, ми пропонуємо спеціальні тури з урахуванням залежності від віку і освітніх потреб учасників. Для того, щоб вписати групу лідер групи повинен заповнити форму, доступну на стійці реєстрації. Максимальна кількість дітей у групі складає 25.
+                    Для шкіл та університетів, ми пропонуємо спеціальні тури з урахуванням залежності від віку і освітніх потреб учасників. Для того, щоб вписати групу, потрібно написати свзаться з музеєм по телефону або емейл і запість групу. Максимальна кількість дітей у групі складає 25.
                 </p>
                 <p>
-                    Вівторок - п'ятниця о 13:00
+                    Вівторок - п'ятниця  13:00
                 </p>
                 <p>
                     Будь ласка, робіть замовлення завчасно поштою або телефоном<br />
-                    info@KNUTD.org~~dobj +38 (044) 590 08 58. Екскурсії доступні англійською, українською та російською мовами.
+                    info@KNUTD.org +38 (044) 590 08 58. Екскурсії доступні англійською, українською та російською мовами.
                 </p>
             </div>
         </div>
@@ -144,8 +141,8 @@
             </div>
             <div class="contactInfo">
                 <p class="contactInfo">КНУТД, Київ</p>
-                <p class="contactInfo">тел.: +3806778787</p>
-                <p class="contactInfo"><a href="mailto:knutd@mail.com">knutd@mail.com</a></p>
+                <p class="contactInfo">тел.: +380 67 509 43 93</p>
+                <p class="contactInfo"><a href="mailto:mfoto@knutd.com">mfoto@knutd.com</a></p>
             </div>
             <div class="schedule">
                 <p class="contactInfo">Ср-Пт 11:00 - 18:00</p>
@@ -156,7 +153,7 @@
             <div class="footerInfo">
                 <p><a>ПРО НАС</a></p>
                 <a href="../../ua/AboutUs/uaHistory.html">історія</a>
-                <a href="../../ua/AboutUs/uaOurProjects.html">наші проекти</a>
+                
             </div>
             <div class="footerInfo">
                 <p><a>КОЛЕКЦІЇ</a></p>
@@ -191,5 +188,9 @@
     <script src="../../scripts/jquery-2.2.3.min.js"></script>
     <script src="../../scripts/AcordionMenu.js"></script>
     <script src="../../scripts/SliderScript.js"></script>
+<script src="../../js/TweenLite.min.js"></script>
+<script src="../../js/EasePack.min.js"></script>
+<script src="../../js/rAF.js"></script>
+<script src="../../js/canvasScript.js"></script>
 </body>
 </html>

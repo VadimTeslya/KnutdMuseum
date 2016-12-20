@@ -1,22 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>КНУТД музей фотографії</title>
     <meta charset="utf-8" />
     <link href="../../../../../Styles/Style.css" rel="stylesheet" />
 </head>
-<body>
+<body> 
+ <canvas id="main-canvas"style="z-index:-1;position:fixed;top:0;left:0;"></canvas>
     <div id="header">
         <div id="logo">
-            <a href="../../../../../uaMainPage.html">
+            <a href="../../../../../index.html">
                 <img src="../../../../../img/layout/logo/logoUa.png" />
             </a>
         </div>
-        <div id="languages">
-            <a class="lngBtn" href="../../../../../uaMainPage.html">Укр</a>
-            <a class="lngBtn" href="../../../../../ruMainPage.html">Рус</a>
-            <a class="lngBtn" href="../../../../../MainPage.html">Eng</a>
-        </div>
+      
     </div>
     <div id="container">
         <div id="menu">
@@ -26,7 +23,7 @@
                         <a href="#">ПРО НАС</a>
                         <ul>
                             <li><span></span><a href="../../../../../ua/AboutUs/uaHistory.html">історія</a></li>
-                            <li><span></span><a href="../../../../../ua/AboutUs/uaOurProjects.html">наші проекти</a></li>
+                            
                         </ul>
                     </li>
                     <li>
@@ -79,8 +76,8 @@
                 </div>
                 <div class="contactInfo">
                     <p class="contactInfo">КНУТД, Київ</p>
-                    <p class="contactInfo">тел.: +3806778787</p>
-                    <p class="contactInfo"><a href="mailto:knutd@mail.com">knutd@mail.com</a></p>
+                    <p class="contactInfo">тел.: +380 67 509 43 93</p>
+                    <p class="contactInfo"><a href="mailto:mfoto@knutd.com"></a></p>
                 </div>
                 <div id="map">
                     <a href="">Карта</a>
@@ -110,7 +107,7 @@
                 <div>
                     <!-- TO DO: Change text-->
                     <p>
-                        Книга і журнал КОЛЕКЦІЇ KNUTDmay умовно присутні з чотирьох розділів, в яких працюють в хронологічному порядку. Перше видання включає в себе видання до 1917 року, другий - з 1917 по 1940 рік, третя секція не є українські видання з 1940 року до наших днів і, нарешті, четверта - сучасний знімальну література.
+                        Даний розділ "після першої світової війни" включає в себе два різних журналу, які представлені нижче.
                     </p>
                 </div>
                 <a href="../../../../../ua/Collection/PrintedProducts/Magazine/AfterFirstWW/SovietFilmsPhotos.html">
@@ -135,8 +132,8 @@
             </div>
             <div class="contactInfo">
                 <p class="contactInfo">КНУТД, Київ</p>
-                <p class="contactInfo">тел.: +3806778787</p>
-                <p class="contactInfo"><a href="mailto:knutd@mail.com">knutd@mail.com</a></p>
+                <p class="contactInfo">тел.: +380 67 509 43 93</p>
+                <p class="contactInfo"><a href="mailto:mfoto@knutd.com">mfoto@knutd.com</a></p>
             </div>
             <div class="schedule">
                 <p class="contactInfo">Ср-Пт 11:00 - 18:00</p>
@@ -147,7 +144,6 @@
             <div class="footerInfo">
                 <p><a>ПРО НАС</a></p>
                 <a href="../../../../../ua/AboutUs/uaHistory.html">історія</a>
-                <a href="../../../../../ua/AboutUs/uaOurProjects.html">наші проекти</a>
             </div>
             <div class="footerInfo">
                 <p><a>КОЛЕКЦІЇ</a></p>
@@ -182,5 +178,9 @@
     <script src="../../../../../scripts/jquery-2.2.3.min.js"></script>
     <script src="../../../../../scripts/AcordionMenu.js"></script>
     <script src="../../../../../scripts/SliderScript.js"></script>
+<script src="../../../../../js/TweenLite.min.js"></script>
+<script src="../../../../../js/EasePack.min.js"></script>
+<script src="../../../../../js/rAF.js"></script>
+<script src="../../../../../js/canvasScript.js"></script>
 </body>
 </html>

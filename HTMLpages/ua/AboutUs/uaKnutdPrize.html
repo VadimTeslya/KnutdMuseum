@@ -1,22 +1,19 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <title>КНУТД музей фотографії</title>
     <meta charset="utf-8" />
     <link href="../../Styles/Style.css" rel="stylesheet" />
 </head>
-<body>
+<body> 
+ <canvas id="main-canvas"style="z-index:-1;position:fixed;top:0;left:0;"></canvas>
     <div id="header">
         <div id="logo">
-            <a href="../../uaMainPage.html">
+            <a href="../../index.html">
                 <img src="../../img/layout/logo/logoUa.png" />
             </a>
         </div>
-        <div id="languages">
-            <a class="lngBtn" href="../../ua/AboutUs/uaKnutdPrize.html">Укр</a>
-            <a class="lngBtn" href="../../ru/AboutUs/ruKnutdPrize.html">Рус</a>
-            <a class="lngBtn" href="../../eng/AboutUs/KnutdPrize.html">Eng</a>
-        </div>
+       
     </div>
     <div id="container">
         <div id="menu">
@@ -26,7 +23,6 @@
                         <a href="#">ПРО НАС</a>
                         <ul>
                             <li><span></span><a href="../../ua/AboutUs/uaHistory.html">історія</a></li>
-                            <li><span></span><a href="../../ua/AboutUs/uaOurProjects.html">наші проекти</a></li>
                         </ul>
                     </li>
                     <li>
@@ -120,7 +116,6 @@
                         <p>
                             КНУТД оголосив, що він відкрив художню премію Future Generation, головний новий міжнародний конкурс для художників у віці до 35 років встановлення, щоб виявити і забезпечити довгострокову підтримку для цілого покоління молодих художників, де б вони не жити і працювати, цей унікальний художник -focused приз покликаний внести істотний внесок в напрямку виробництва нових робіт молодих художників. Для того, щоб заохочувати допомогу одного покоління художників до наступного, група відомих художників Mentor зробив свою довгострокову участь в премії і забезпечить в очному рада і підтримку переможців премії, і один з художників ментор мають паралельне шоу в той же час, як кожної виставки виділення. Художники Mentor є Андреас Гурскі, Деміен Херст, Джефф Кунс та Такаші Муракамі.
                         </p>
-                        <a href="../../ua/AboutUs/uaOurProjects.html">наші проекти</a>
                     </div>
                 </div>
             </div>
@@ -145,7 +140,6 @@
             <div class="footerInfo">
                 <p><a>ПРО НАС</a></p>
                 <a href="../../ua/AboutUs/uaHistory.html">історія</a>
-                <a href="../../ua/AboutUs/uaOurProjects.html">наші проекти</a>
             </div>
             <div class="footerInfo">
                 <p><a>КОЛЕКЦІЇ</a></p>
@@ -180,6 +174,10 @@
     <script src="../../scripts/jquery-2.2.3.min.js"></script>
     <script src="../../scripts/AcordionMenu.js"></script>
     <script src="../../scripts/SliderScript.js"></script>
+<script src="../../js/TweenLite.min.js"></script>
+<script src="../../js/EasePack.min.js"></script>
+<script src="../../js/rAF.js"></script>
+<script src="../../js/canvasScript.js"></script>
 </body>
 </html>
 

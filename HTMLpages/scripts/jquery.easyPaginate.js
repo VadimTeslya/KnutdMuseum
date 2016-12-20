@@ -80,6 +80,7 @@ $.fn.easyPaginate = function (options) {
             
             htmlNav += '</div></div>';
             plugin.nav = $(htmlNav);
+            var newsEl = $('#news');
             plugin.nav.css({
                 'width': plugin.el.width()
             });

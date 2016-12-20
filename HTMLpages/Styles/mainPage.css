@@ -40,6 +40,16 @@ a.navItem {
     margin-right: 0;
 }
 
+.contentImg > img{
+    width: 195px;
+}
+
+.contentText{
+    width: 195px;
+    height: 140px;
+    overflow: hidden;
+}
+
 .contentItem p {
     width: 185px;
     text-align: left;
@@ -49,17 +59,25 @@ a.navItem {
 .readBtn {
     float: right;
     margin: 10px 0 10px;
+    border: 1px solid lightgray;
+    width: 150px;
+    height: 25px;
 }
 
-    .readBtn a {
-        border: 1px solid lightgray;
-        color: #000000;
-        padding: 4px 4px;
+    .readBtn:hover {
+        background-color: lightgray;
     }
 
-        .readBtn a:hover {
-            background-color: lightgray;
-        }
+.readBtn a {
+    color: #000000;
+    font-size: 12px;
+}
+
+.readBtn > a > div {
+    width: 100px;
+    height: 15px;
+    padding: 5px 25px;
+}
 
 #contentFooter {
     clear: both;
@@ -70,4 +88,8 @@ a.navItem {
     float: right;
     margin-top: 10px;
     padding-top: 3px;
+}
+
+#footerImg > img{
+    width: 413px;
 }

@@ -21,7 +21,7 @@ h3 {
 
 #header {
     position: relative;
-    width: 948px;
+    width: 880px;
     height: 106px;
     margin: auto;
     padding-bottom: 0;
@@ -38,14 +38,14 @@ h3 {
 #languages {
     position: absolute;
     bottom: 8px;
-    left: 319px;
+    right: 0;
 }
 
 .lngBtn {
     padding: 0 10px;
     color: #000000;
     background: lightgray;
-    margin-right: 10px;
+    margin-left: 10px;
 }
 
     .lngBtn:hover {
@@ -66,7 +66,7 @@ h3 {
 --------------------------------------------*/
 
 #container {
-    width: 948px;
+    width: 880px;
     min-height: 900px;
     margin: auto;
     padding-top: 20px;
@@ -77,7 +77,7 @@ h3 {
 
 #menu {
     float: left;
-    width: 316px;
+    width: 250px;
     height: 100%;
 }
 
@@ -124,7 +124,7 @@ ul {
             height: 19px;
         }
 
-        #menuButton > ul > li > ul > li:hover > span {
+        #menuButton > ul > li > ul > li:hover > span  {
             background-image: url('../img/arrow.png');
             background-repeat: no-repeat;
         }
@@ -155,16 +155,14 @@ ul {
 /*--- Info ---*/
 
 #info {
-    position: absolute;
-    top: 350px;
-    width: 256px;
-    height: 267px;
-    margin-top: 97px;
+    width: 162px;
+    height: 200px;
+    margin-left: 10px;
     border: 2px solid lightgrey;
 }
 
 #opening {
-    width: 235px;
+    width: 162px;
     height: 29px;
     background: gray;
     color: #ffffff;
@@ -173,10 +171,14 @@ ul {
 
     #opening p {
         position: relative;
-        top: 9px;
-        left: 10px;
-        font-size: 16px;
+        top: 6px;
+        left: 30px;
+        font-size: 13px;
     }
+
+#map{
+    visibility: hidden;
+}
 
 #map a {
     border-bottom: 1px solid #000000;
@@ -185,6 +187,7 @@ ul {
 }
 
 #socialLinks {
+    visibility: hidden;
     margin: 20px 0 0 10px;
 }
 
@@ -192,6 +195,10 @@ ul {
 
 #content {
     float: left;
+    width: 630px;
+}
+
+.row {
     width: 630px;
 }
 
@@ -265,6 +272,7 @@ ul {
 }
 
 .albumPhoto> a > img{
+	display: inline-block;
     width: 165px;
     height: 200px;
 }
@@ -276,7 +284,7 @@ ul {
 #footer {
     clear: both;
     border-top: 2px solid gray;
-    width: 948px;
+    width: 880px;
     margin: 20px auto 20px;
     overflow: hidden;
 }
@@ -310,13 +318,14 @@ p.contactInfo {
 
 .footerInfo {
     float: left;
-    margin-right: 35px;
+    margin-right: 30px;
 }
 .footerInfo p {
     margin: 0;
 }
 
     .footerInfo p a{
+        font-size: 13px;
         padding: 0;
         color: #dc001a;
         text-decoration: none;
@@ -326,7 +335,7 @@ p.contactInfo {
         display: block;
         padding: 3px 0;
         color: #000000;
-        text-decoration: underline;
+        text-decoration: none;
     }
 
 /*---------------------------------------
@@ -378,7 +387,6 @@ h3 a {
 
 .contentProjTxt a {
     color: #dc001a;
-    font-style: italic;
     text-decoration: none;
 }
 
@@ -392,7 +400,6 @@ h3 a {
 
     #albumName {
     color: #dc001a;
-    font-style: italic;
     font-size: 12pt;
     margin-top: 5px;
 }
@@ -461,7 +468,6 @@ h3 a {
 
 .paging a {
     color: #dc001a;
-    font-style: italic;
 }
 
 /*---------------------------------------
@@ -470,7 +476,6 @@ h3 a {
 
 .contentItem > p {
     color: #dc001a;
-    font-style: italic;
     text-align: center;
     margin-bottom: 5px;
     width: 165px;
@@ -485,7 +490,6 @@ h3 a {
 #viewCollection a {
     color: #dc001a;
     text-decoration: underline;
-    font-style: italic;
 }
 
 /*---------------------------------------
@@ -510,8 +514,6 @@ h3 a {
 -----------------------------------------*/
 
 .namePage {
-    color: #dc001a;
-    font-style: italic;
     font-size: 12pt;
     margin: 10px 0 0 0;
 }
@@ -530,6 +532,10 @@ a .eventItem {
     float: left;
     overflow: hidden;
     padding-top: 5px;
+}
+
+.eventImg > img{
+    width: 195px;
 }
 
 .eventTxt {
@@ -561,6 +567,7 @@ a .eventItem {
 }
 
 .redTxt {
+    width: 345px;
     margin-left: 10px;
     color: #dc001a;
 }
@@ -575,12 +582,16 @@ a .eventItem {
 
 .eventInfoTxt {
     overflow: hidden;
-    padding: 40px 0 0 30px;
+    padding: 0 0 0 30px;
 }
 
 .eventInfoTxt div {
     float: left;
     clear: right;
+}
+
+.eventInfoTxt div > p{
+    margin-top: 0;
 }
 
 .eventInfoItem {
@@ -595,7 +606,6 @@ a .eventItem {
 .eventDescription a {
     color: #dc001a;
     text-decoration: none;
-    font-style: italic;
 }
 
 /*---------------------------------------
@@ -604,7 +614,11 @@ a .eventItem {
 
 .redExhTxt {
     color: #dc001a;
-    font-style: italic;
+    margin: 10px 0 0 0;
+}
+
+.exhibition > a p.redExhTxt {
+    color: #dc001a;
     margin: 10px 0 0 0;
 }
 
@@ -621,17 +635,27 @@ a .eventItem {
     margin-top: 10px;
 }
 
+.exhibitionsImg > img{
+    height: 176px;
+}
+
 .exhibitionCollection > a {
     color: #dc001a;
 }
 
+.exhibition > a p{
+    color: #000000;
+}
+
+.exhibition > a > h3{
+    color: #000000;
+}
 /*---------------------------------------
                 Education Programm
 -----------------------------------------*/
 
 p.redEduTxt {
     color: #dc001a;
-    font-style: italic;
 }
 
 /*---------------------------------------
@@ -645,7 +669,6 @@ p.redEduTxt {
 
 #pageName {
     color: #dc001a;
-    font-style: italic;
     font-size: 12pt;
 }
 
